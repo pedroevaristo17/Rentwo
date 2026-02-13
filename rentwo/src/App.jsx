@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
       <div style={{ flex: 1, padding: 16 }}>
-        <h2>Aba : <h2>{activateTab}</h2> </h2>
+        <h2 className='centraliza'>Aba : <h2>{activateTab}</h2> </h2>
       </div>
 
         <BottomNav activateTab={activateTab} onTabChange={setActivateTab} />      
