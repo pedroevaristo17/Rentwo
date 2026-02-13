@@ -1,0 +1,18 @@
+.bottomNav {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    gap: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (max-width: 480px) {
+    
+    .bottomNav {
+        gap: 5px;
+    }
+}
