@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { AppContext } from "../store/appProvider";
+import { AppContext } from "../store/AppProvider";
 
 export default function Profile() {
   const { state, dispatch } = useContext(AppContext);

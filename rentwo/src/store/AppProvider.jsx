@@ -1,6 +1,6 @@
 import { createContext, useReducer, useEffect } from "react";
-import { loadState, saveState } from "./storage";
-import { roommatesMock } from "../data/roommates"
+import { loadState, saveState } from "./Storage";
+import  roommatesMock  from "../data/roommates"
 
 
 // 1️⃣ Criamos o contexto
