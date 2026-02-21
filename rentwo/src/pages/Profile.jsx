@@ -20,6 +20,17 @@ export default function Profile() {
       >
         Atualizar Perfil
       </button>
+      
+
+      <button
+        onClick={() => dispatch({ type: "RESET_APP" })}
+        style={{ marginTop: 12, padding: "10px 14px" }}
+      >
+      Resetar app
+      </button>
+      
+    
+    
     </div>
   );
 }

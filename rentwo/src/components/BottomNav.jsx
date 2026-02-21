@@ -9,6 +9,7 @@ export default function BottomNav() {
 
   return (
     <nav style={{ display: "flex", justifyContent: "space-around", borderTop: "1px solid #ddd" }}>
+      <NavLink to="/chat" style={linkStyle}>Chat</NavLink>
       <NavLink to="/swipe" style={linkStyle}>Swipe</NavLink>
       <NavLink to="/likes" style={linkStyle}>Likes</NavLink>
       <NavLink to="/profile" style={linkStyle}>Profile</NavLink>

@@ -107,6 +107,8 @@ function appReducer(state, action) {
         createdAt: Date.now(),
       };
 
+
+
       return {
         ...state,
         chats: {
@@ -119,9 +121,14 @@ function appReducer(state, action) {
       };
     }
 
+    case "RESET_APP":
+      return initialState;
+
     default:
       return state;
   }
+
+    
 }
 
 // 4️⃣ Provider (envolve o app)
