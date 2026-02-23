@@ -24,6 +24,7 @@ function appReducer(state, action) {
     case "PROFILE_UPDATE":
       return {
         ...state,
+        swipeIndex: 0,
         profile: {
           ...state.profile,
           ...action.payload,

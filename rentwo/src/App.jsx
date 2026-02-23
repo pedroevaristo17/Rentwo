@@ -5,6 +5,7 @@ import Profile from "./pages/Profile";
 import BottomNav from "./components/BottomNav";
 import ChatRoom from "./pages/ChatRoom";
 import ChatList from "./pages/ChatList"
+import Homes from "./pages/Homes";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/swipe" element={<Swipe />} />
           <Route path="/likes" element={<Likes />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/homes" element={<Homes />} />
           <Route path="/chat/:id" element={<ChatRoom />} />
         </Routes>
       </div>

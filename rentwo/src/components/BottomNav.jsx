@@ -13,6 +13,7 @@ export default function BottomNav() {
       <NavLink to="/swipe" style={linkStyle}>Swipe</NavLink>
       <NavLink to="/likes" style={linkStyle}>Likes</NavLink>
       <NavLink to="/profile" style={linkStyle}>Profile</NavLink>
+      <NavLink to="/homes" style={linkStyle}>Homes</NavLink>
     </nav>
   );
 }
