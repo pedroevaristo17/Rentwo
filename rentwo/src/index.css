@@ -1,5 +1,12 @@
-@config "../tailwind.config.js";
 @import "tailwindcss";
+
+@theme {
+  --color-primary: #2463eb;
+  --color-secondary: #7c3aed;
+  --color-accent: #7c3aed;
+  --color-background-light: #f6f6f8;
+  --color-background-dark: #111621;
+}
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 24;
