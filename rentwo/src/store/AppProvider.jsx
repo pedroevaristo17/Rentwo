@@ -10,12 +10,14 @@ const initialState = {
   profile: {
     city: "",
     budgetMax: 0,
+    avatarUrl: ""
   },
   roommates: roommatesMock,
   swipeIndex: 0,
   likesRoommates: [],
   dislikesRoommates: [],
   chats: {},
+
 };
 
 // 3️⃣ Reducer (onde o estado muda)
