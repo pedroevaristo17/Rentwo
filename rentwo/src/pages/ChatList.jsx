@@ -1,4 +1,10 @@
-import { useContext, useMemo } from "react";
+import ChatWorkspace from "../components/ChatWorkspace";
+
+export default function ChatList() {
+  return <ChatWorkspace />;
+}
+
+/*import { useContext, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { AppContext } from "../store/AppProvider";
 
@@ -63,4 +69,4 @@ export default function ChatList() {
       )}
     </div>
   );
-}
+} */ 
