@@ -11,7 +11,7 @@ export default function TopNav() {
       : "text-slate-600 text-sm font-medium hover:text-primary transition-colors";
 
   return (
-    <header className="sticky top-0 z-50 border-b border-slate-200 bg-white">
+    <header className="sticky top-0 z-50 border-b border-primary/15 bg-gradient-to-r from-white via-primary/5 to-accent/10 backdrop-blur">
       <div className="mx-auto max-w-[1100px] px-4 lg:px-8 py-3 flex items-center gap-4">
         {/* Brand + Search */}
         <div className="flex items-center gap-4 min-w-0">
@@ -21,7 +21,7 @@ export default function TopNav() {
                 grid_view
               </span>
             </div>
-            <h2 className="text-slate-900 text-xl font-bold tracking-tight">
+            <h2 className="text-primary text-xl font-bold tracking-tight">
               Rentwo
             </h2>
           </div>
@@ -59,12 +59,12 @@ export default function TopNav() {
           </NavLink>
 
           <div className="flex items-center gap-2 border-l border-slate-200 pl-4">
-            <button className="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+            <button className="flex items-center justify-center rounded-xl h-10 w-10 bg-primary/10 text-primary hover:bg-primary/20 transition-colors">
               <span className="material-symbols-outlined text-[20px]">
                 notifications
               </span>
             </button>
-            <button className="flex items-center justify-center rounded-xl h-10 w-10 bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors">
+            <button className="flex items-center justify-center rounded-xl h-10 w-10 bg-accent/10 text-accent hover:bg-accent/20 transition-colors">
               <span className="material-symbols-outlined text-[20px]">
                 settings
               </span>

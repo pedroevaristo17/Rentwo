@@ -52,30 +52,28 @@ export default function Swipe() {
   }
 
   return (
-    <div className="bg-background-light">
-      {/* altura fixa pra não gerar scroll */}
-      <main className="h-[calc(100vh-64px)] flex items-center justify-center px-4">
-        <div className="w-full max-w-[520px] flex flex-col items-center">
+    <div className="bg-gradient-to-b from-background-light via-primary/5 to-accent/10">
+      <main className="min-h-[calc(100vh-64px)] flex items-center justify-center px-4 py-8">
+        <div className="w-full max-w-[680px] flex flex-col items-center">
           {/* header compacto */}
-          <div className="text-center mb-4">
-            <h1 className="text-3xl font-bold text-slate-900 leading-tight">
+          <div className="text-center mb-5">
+            <h1 className="text-4xl font-bold text-slate-900 leading-tight">
               Find your perfect match
             </h1>
-            <p className="text-slate-500 mt-1">
+            <p className="text-slate-600 mt-2">
               Based on your preferences in{" "}
               {state.profile.city || "your city"}.
             </p>
           </div>
 
           {/* card */}
-          <div className="w-full bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-2xl shadow-slate-200/50">
-            {/* altura menor pra caber e não rolar */}
-            <div className="relative h-[360px]">
+          <div className="w-full bg-white/95 backdrop-blur rounded-3xl overflow-hidden border border-primary/20 shadow-2xl shadow-primary/15">
+            <div className="relative h-[460px]">
               <PhotoCarousel photos={current.photos} alt={current.name} />
 
               {/* badge roxo */}
               <div className="absolute top-4 right-4 z-10">
-                <div className="bg-accent text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-xl shadow-accent/25 flex items-center gap-1">
+                <div className="bg-gradient-to-r from-primary to-accent text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-xl shadow-accent/25 flex items-center gap-1">
                   <span className="material-symbols-outlined text-xs">bolt</span>
                   95% Match
                 </div>
@@ -109,9 +107,9 @@ export default function Swipe() {
             </div>
 
             {/* about compacto */}
-            <div className="px-5 py-4">
-              <h4 className="font-bold text-lg text-slate-900 mb-1">About</h4>
-              <p className="text-slate-600 text-sm leading-relaxed">
+            <div className="px-6 py-5">
+              <h4 className="font-bold text-lg text-primary mb-1">About</h4>
+              <p className="text-slate-700 text-base leading-relaxed">
                 {current.bio}
               </p>
 
@@ -120,7 +118,7 @@ export default function Swipe() {
                   {current.tags.slice(0, 4).map((t) => (
                     <span
                       key={t}
-                      className="bg-slate-100 text-slate-700 text-xs font-semibold px-3 py-1.5 rounded-lg"
+                      className="bg-primary/10 text-primary text-xs font-semibold px-3 py-1.5 rounded-lg border border-primary/15"
                     >
                       {t}
                     </span>
@@ -131,7 +129,7 @@ export default function Swipe() {
           </div>
 
           {/* botões: com espaço embaixo pra não cortar */}
-          <div className="flex items-center gap-10 mt-4 pb-6">
+          <div className="flex items-center gap-12 mt-5 pb-2">
             <button
               onClick={() => dispatch({ type: "SWIPE_NOPE" })}
               className="flex flex-col items-center gap-2 group"
