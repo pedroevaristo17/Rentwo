@@ -1,9 +1,8 @@
-import { createContext, useReducer, useEffect } from "react";
-import { loadState, saveState } from "./storage"; // ✅ minúsculo
+import { useReducer, useEffect } from "react";
+import { loadState, saveState } from "./Storage";
 import roommatesMock from "../data/roommates";
+import { AppContext } from "./AppContext";
 
-// 1️⃣ Criamos o contexto
-export const AppContext = createContext();
 
 // 2️⃣ Estado inicial do app
 const initialState = {
@@ -149,3 +148,5 @@ export function AppProvider({ children }) {
     </AppContext.Provider>
   );
 }
+
+export { AppContext };
