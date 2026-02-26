@@ -42,6 +42,9 @@ export default function TopNav() {
           <NavLink to="/swipe" className={linkClass}>
             Discover
           </NavLink>
+          <NavLink to="/homes" className={linkClass}>
+            Homes
+          </NavLink>
           <NavLink to="/likes" className={linkClass}>
             Matches
           </NavLink>
