@@ -16,7 +16,7 @@ export default function TopNav() {
       <div className="mx-auto max-w-[1100px] px-4 lg:px-8 py-3 flex items-center gap-4">
         <div className="flex items-center gap-4 min-w-0">
           <div className="flex items-center shrink-0">
-            <img src={rentwoLogo} alt="Rentwo" className="h-12 md:h-14 w-auto max-w-none" />
+            <img src={rentwoLogo} alt="Rentwo" className="h-8 w-auto" />
           </div>
 
           <label className="hidden md:flex flex-col min-w-40 h-10 max-w-72">
