@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import rentwoLogo from "../assets/logo-rentwo.svg";
+const heroUniversitarios = "/src/assets/landing/hero-universitarios.webp";
+const safetyPerfil = "/src/assets/landing/safety-perfil.webp";
 
 const steps = [
   {
@@ -101,9 +103,11 @@ export default function Landing() {
 
         <article className="overflow-hidden rounded-[30px] border-[6px] border-white bg-white shadow-soft">
           <img
-            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=1200&q=80"
-            alt="Friends sharing food"
-            className="h-[360px] w-full object-cover sm:h-[420px] lg:h-[500px]"
+            src={heroUniversitarios}
+            alt="Universitários conversando e estudando em uma cozinha compartilhada"
+            loading="lazy"
+            decoding="async"
+            className="h-[360px] w-full object-cover object-center sm:h-[420px] lg:h-[500px]"
           />
         </article>
       </section>
@@ -145,14 +149,14 @@ export default function Landing() {
 
       <section id="safety" className="bg-white px-4 py-16 sm:px-6 md:py-20 lg:px-8">
         <div className="mx-auto grid w-full max-w-6xl gap-8 md:grid-cols-2 md:items-center md:gap-10">
-          <article className="rounded-[26px] bg-gradient-to-br from-[#0f263c] via-[#12344f] to-[#163f5f] p-10 text-center shadow-soft">
-            <div className="mx-auto flex h-[250px] max-w-[320px] items-center justify-center rounded-[20px] border border-white/20 text-sm font-medium uppercase tracking-[0.16em] text-white/75">
-              ROOMMATE
-              <br />
-              INTEGRITY
-              <br />
-              MANUAL
-            </div>
+          <article className="overflow-hidden rounded-[26px] shadow-soft">
+            <img
+              src={safetyPerfil}
+              alt="Perfil de segurança com informações verificadas para encontrar roommate"
+              loading="lazy"
+              decoding="async"
+              className="h-full w-full object-cover object-center"
+            />
           </article>
 
           <div>
