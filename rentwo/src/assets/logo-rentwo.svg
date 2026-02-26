@@ -1,0 +1,23 @@
+<svg width="680" height="180" viewBox="0 0 680 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Rentwo</title>
+  <desc id="logoDesc">Logotipo da Rentwo com texto azul e ícone roxo no O final.</desc>
+
+  <defs>
+    <linearGradient id="wordGradient" x1="0" y1="18" x2="0" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2461D1" />
+      <stop offset="1" stop-color="#1B4DAF" />
+    </linearGradient>
+    <linearGradient id="towerGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#A98BD8" />
+      <stop offset="1" stop-color="#8A69C7" />
+    </linearGradient>
+  </defs>
+
+  <text x="18" y="130" fill="url(#wordGradient)" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="138">rentw</text>
+
+  <g transform="translate(530 28)">
+    <circle cx="58" cy="58" r="46" fill="white" stroke="url(#wordGradient)" stroke-width="22" />
+    <path d="M58 23L76 34V82L58 93L40 82V34L58 23Z" fill="url(#towerGradient)" />
+    <path d="M53 38L63 44V48L53 42V38ZM53 50L63 56V60L53 54V50ZM53 62L63 68V72L53 66V62ZM53 74L63 80V84L53 78V74Z" fill="white" />
+  </g>
+</svg>
