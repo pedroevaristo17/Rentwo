@@ -1,0 +1,27 @@
+<svg width="940" height="220" viewBox="0 0 940 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Rentwo</title>
+  <desc id="logoDesc">Logotipo da Rentwo com wordmark azul e ícone roxo dentro da letra O.</desc>
+
+  <defs>
+    <linearGradient id="rentwoBlue" x1="0" y1="20" x2="0" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B63CB" />
+      <stop offset="1" stop-color="#1D50B3" />
+    </linearGradient>
+    <linearGradient id="buildingPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#B59ADF" />
+      <stop offset="1" stop-color="#8B6BC8" />
+    </linearGradient>
+  </defs>
+
+  <!-- "rentw" com peso e proporção próximos da referência -->
+  <text x="18" y="154" fill="url(#rentwoBlue)" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800" font-size="165" letter-spacing="0">rentw</text>
+
+  <!-- O final integrado, sem espaçamento excessivo -->
+  <g transform="translate(700 24)">
+    <circle cx="90" cy="86" r="64" fill="white" stroke="url(#rentwoBlue)" stroke-width="30" />
+
+    <path d="M90 36L114 50V122L90 136L66 122V50L90 36Z" fill="url(#buildingPurple)" />
+
+    <path d="M83 56L97 64V69L83 61V56ZM83 72L97 80V85L83 77V72ZM83 88L97 96V101L83 93V88ZM83 104L97 112V117L83 109V104Z" fill="white" />
+  </g>
+</svg>
