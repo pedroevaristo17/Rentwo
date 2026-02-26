@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AppContext } from "../store/AppProvider";
-import rentwoLogo from "../assets/logo-rentwo.svg";
+import rentwoLogo from "../assets/logo-rentwo.png";
 
 export default function TopNav() {
   const { state } = useContext(AppContext);
