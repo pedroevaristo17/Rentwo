@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import rentwoLogo from "../assets/logo-rentwo.svg";
-const heroUniversitarios = "/src/assets/landing/hero-universitarios.webp";
-const safetyPerfil = "/src/assets/landing/safety-perfil.webp";
+import heroUniversitarios from "../assets/landing/hero-universitarios.webp";
+import safetyPerfil from "../assets/landing/safety-perfil.webp";
 
 const steps = [
   {
