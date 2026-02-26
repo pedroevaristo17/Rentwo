@@ -1,0 +1,25 @@
+<svg width="980" height="220" viewBox="0 0 980 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Rentwo</title>
+  <desc id="logoDesc">Logotipo da Rentwo com palavra completa e ícone roxo dentro do O final.</desc>
+
+  <defs>
+    <linearGradient id="rentwoBlue" x1="0" y1="18" x2="0" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B63CB" />
+      <stop offset="1" stop-color="#1E51B5" />
+    </linearGradient>
+    <linearGradient id="buildingPurple" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#B59ADF" />
+      <stop offset="1" stop-color="#8B6BC8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Palavra completa (sem separação entre w e o) -->
+  <text x="20" y="154" fill="url(#rentwoBlue)" font-family="Poppins, Inter, Arial, sans-serif" font-weight="800" font-size="166" letter-spacing="0">rentwo</text>
+
+  <!-- Tratamento do O final com ícone interno -->
+  <g transform="translate(745 24)">
+    <circle cx="88" cy="86" r="63" fill="white" stroke="url(#rentwoBlue)" stroke-width="30" />
+    <path d="M88 36L112 50V122L88 136L64 122V50L88 36Z" fill="url(#buildingPurple)" />
+    <path d="M81 56L95 64V69L81 61V56ZM81 72L95 80V85L81 77V72ZM81 88L95 96V101L81 93V88ZM81 104L95 112V117L81 109V104Z" fill="white" />
+  </g>
+</svg>
