@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#2463eb",          // azul
-        secondary: "#7c3aed",        // roxo
-        accent: "#7c3aed",           // alias para compatibilidade
+        primary: "#2563EB",          // azul
+        secondary: "#7C3AED",        // roxo
+        accent: "#7C3AED",           // alias para compatibilidade
         "background-light": "#f6f6f8",
         "background-dark": "#111621",
       },
