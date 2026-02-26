@@ -1,0 +1,22 @@
+<svg width="512" height="140" viewBox="0 0 512 140" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Rentwo</title>
+  <desc id="logoDesc">Logotipo da Rentwo com texto azul e ícone roxo no O final.</desc>
+  <defs>
+    <linearGradient id="wordGradient" x1="0" y1="20" x2="0" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2461D1"/>
+      <stop offset="1" stop-color="#1B4DAF"/>
+    </linearGradient>
+    <linearGradient id="towerGradient" x1="404" y1="48" x2="404" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A98BD8"/>
+      <stop offset="1" stop-color="#8A69C7"/>
+    </linearGradient>
+  </defs>
+
+  <text x="18" y="99" fill="url(#wordGradient)" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="102" letter-spacing="1">rentw</text>
+
+  <g transform="translate(397 24)">
+    <circle cx="48" cy="46" r="43" stroke="url(#wordGradient)" stroke-width="18" fill="white"/>
+    <path d="M48 15L66 25V67L48 77L30 67V25L48 15Z" fill="url(#towerGradient)"/>
+    <path d="M44 28L53 33V37L44 32V28ZM44 38L53 43V47L44 42V38ZM44 48L53 53V57L44 52V48ZM44 58L53 63V67L44 62V58Z" fill="white"/>
+  </g>
+</svg>
