@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { AppContext } from "../store/AppProvider";
+import rentwoLogo from "../assets/rentwo-logo.png"
 
 export default function TopNav() {
   const { state } = useContext(AppContext);
@@ -15,12 +16,7 @@ export default function TopNav() {
       <div className="mx-auto max-w-[1100px] px-4 lg:px-8 py-3 flex items-center gap-4">
         <div className="flex items-center gap-4 min-w-0">
           <div className="flex items-center gap-3 shrink-0">
-            <div className="size-8 flex items-center justify-center bg-primary/10 rounded-lg">
-              <span className="material-symbols-outlined text-primary text-2xl">
-                grid_view
-              </span>
-            </div>
-            <h2 className="text-primary text-xl font-bold tracking-tight">Rentwo</h2>
+            <img src={rentwoLogo} alt="Rentwo" className="h-9 w-auto object-contain"/>  
           </div>
 
           <label className="hidden md:flex flex-col min-w-40 h-10 max-w-72">
